@@ -1,8 +1,27 @@
+/**
+ * Human Object defining a Human
+ */
 public class Human {
     String name;
     int age;
     int heightInInches;
     String eyeColor;
+
+    /**
+     * Human Dynamic Constructor
+     *
+     * @param name
+     * @param age
+     * @param heightInInches
+     * @param eyeColor
+     */
+    public Human(String name, int age, int heightInInches, String eyeColor) {
+        super();
+        this.name = name;
+        this.age = age;
+        this.heightInInches = heightInInches;
+        this.eyeColor = eyeColor;
+    }
 
     public void speak() {
         System.out.println("Hello my name is " + name);
