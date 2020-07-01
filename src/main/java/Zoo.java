@@ -1,12 +1,7 @@
 public class Zoo {
     public static void main(String[] args) {
-        Animal animal1 = new Animal(12, "M", 23);
+        Chicken chick1 = new Chicken(1, "M", 7);
 
-        animal1.eat();
-
-        Bird bird1 = new Bird(3, "F", 10);
-        bird1.eat();
-        bird1.sleep();
-        bird1.fly();
+        chick1.fly();
     }
 }
